@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2828F0F11A4381C200F43566 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828F0EF1A4381C200F43566 /* ThirdViewController.m */; };
+		2828F0F21A4381C200F43566 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2828F0F01A4381C200F43566 /* ThirdViewController.xib */; };
+		285DDEEB1A432F2D002178EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DDEEA1A432F2D002178EC /* UIKit.framework */; };
+		285DDEED1A432F2D002178EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DDEEC1A432F2D002178EC /* Foundation.framework */; };
+		285DDEEF1A432F2D002178EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DDEEE1A432F2D002178EC /* CoreGraphics.framework */; };
+		285DDEF51A432F2D002178EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 285DDEF31A432F2D002178EC /* InfoPlist.strings */; };
+		285DDEF71A432F2D002178EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DDEF61A432F2D002178EC /* main.m */; };
+		285DDEFB1A432F2D002178EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DDEFA1A432F2D002178EC /* AppDelegate.m */; };
+		285DDEFE1A432F2D002178EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DDEFD1A432F2D002178EC /* FirstViewController.m */; };
+		285DDF001A432F2D002178EC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 285DDEFF1A432F2D002178EC /* first.png */; };
+		285DDF021A432F2D002178EC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 285DDF011A432F2D002178EC /* first@2x.png */; };
+		285DDF051A432F2D002178EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DDF041A432F2D002178EC /* SecondViewController.m */; };
+		285DDF071A432F2E002178EC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 285DDF061A432F2D002178EC /* second.png */; };
+		285DDF091A432F2E002178EC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 285DDF081A432F2E002178EC /* second@2x.png */; };
+		285DDF0C1A432F2E002178EC /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285DDF0A1A432F2E002178EC /* FirstViewController.xib */; };
+		285DDF0F1A432F2E002178EC /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285DDF0D1A432F2E002178EC /* SecondViewController.xib */; };
+		285DDF171A432F2E002178EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DDF161A432F2E002178EC /* SenTestingKit.framework */; };
+		285DDF181A432F2E002178EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DDEEA1A432F2D002178EC /* UIKit.framework */; };
+		285DDF191A432F2E002178EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285DDEEC1A432F2D002178EC /* Foundation.framework */; };
+		285DDF211A432F2E002178EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 285DDF1F1A432F2E002178EC /* InfoPlist.strings */; };
+		285DDF241A432F2E002178EC /* Mega_Looping_Louie_3GTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DDF231A432F2E002178EC /* Mega_Looping_Louie_3GTests.m */; };
+		286D07A81A96AC6800BC0465 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286D07A71A96AC6800BC0465 /* ExternalAccessory.framework */; };
+		286D2BA31A9DD05C0060B144 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 286D2BA21A9DD05C0060B144 /* libRscMgrUniv.a */; };
+		28DC87451A4330F500D332CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC873F1A4330F500D332CD /* Default.png */; };
+		28DC87461A4330F500D332CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC87401A4330F500D332CD /* Default@2x.png */; };
+		28DC87491A4330F500D332CD /* LLyellowbright.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC87431A4330F500D332CD /* LLyellowbright.png */; };
+		28DC874A1A4330F500D332CD /* Looping Louie down bright.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC87441A4330F500D332CD /* Looping Louie down bright.png */; };
+		28DC874C1A43316600D332CD /* LLyellow57.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC874B1A43316600D332CD /* LLyellow57.png */; };
+		28DC874E1A43317600D332CD /* LLyellow114.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC874D1A43317600D332CD /* LLyellow114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		285DDF1A1A432F2E002178EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 285DDEDD1A432F2C002178EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285DDEE51A432F2D002178EC;
+			remoteInfo = "Mega Looping Louie 3G";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2828F0EE1A4381C200F43566 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2828F0EF1A4381C200F43566 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2828F0F01A4381C200F43566 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		285DDEE61A432F2D002178EC /* Mega Looping Louie 3G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega Looping Louie 3G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285DDEEA1A432F2D002178EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		285DDEEC1A432F2D002178EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		285DDEEE1A432F2D002178EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		285DDEF21A432F2D002178EC /* Mega Looping Louie 3G-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mega Looping Louie 3G-Info.plist"; sourceTree = "<group>"; };
+		285DDEF41A432F2D002178EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		285DDEF61A432F2D002178EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		285DDEF81A432F2D002178EC /* Mega Looping Louie 3G-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mega Looping Louie 3G-Prefix.pch"; sourceTree = "<group>"; };
+		285DDEF91A432F2D002178EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		285DDEFA1A432F2D002178EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		285DDEFC1A432F2D002178EC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		285DDEFD1A432F2D002178EC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		285DDEFF1A432F2D002178EC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		285DDF011A432F2D002178EC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		285DDF031A432F2D002178EC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		285DDF041A432F2D002178EC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		285DDF061A432F2D002178EC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		285DDF081A432F2E002178EC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		285DDF0B1A432F2E002178EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		285DDF0E1A432F2E002178EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		285DDF151A432F2E002178EC /* Mega Looping Louie 3GTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mega Looping Louie 3GTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		285DDF161A432F2E002178EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		285DDF1E1A432F2E002178EC /* Mega Looping Louie 3GTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mega Looping Louie 3GTests-Info.plist"; sourceTree = "<group>"; };
+		285DDF201A432F2E002178EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		285DDF221A432F2E002178EC /* Mega_Looping_Louie_3GTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mega_Looping_Louie_3GTests.h; sourceTree = "<group>"; };
+		285DDF231A432F2E002178EC /* Mega_Looping_Louie_3GTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mega_Looping_Louie_3GTests.m; sourceTree = "<group>"; };
+		286D07A71A96AC6800BC0465 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		286D2BA21A9DD05C0060B144 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		28883E001A97185200A60CCB /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		28883E011A97185200A60CCB /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		28DC873F1A4330F500D332CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		28DC87401A4330F500D332CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		28DC87431A4330F500D332CD /* LLyellowbright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LLyellowbright.png; sourceTree = "<group>"; };
+		28DC87441A4330F500D332CD /* Looping Louie down bright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Looping Louie down bright.png"; sourceTree = "<group>"; };
+		28DC874B1A43316600D332CD /* LLyellow57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LLyellow57.png; sourceTree = "<group>"; };
+		28DC874D1A43317600D332CD /* LLyellow114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LLyellow114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		285DDEE31A432F2D002178EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286D07A81A96AC6800BC0465 /* ExternalAccessory.framework in Frameworks */,
+				285DDEEB1A432F2D002178EC /* UIKit.framework in Frameworks */,
+				285DDEED1A432F2D002178EC /* Foundation.framework in Frameworks */,
+				285DDEEF1A432F2D002178EC /* CoreGraphics.framework in Frameworks */,
+				286D2BA31A9DD05C0060B144 /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285DDF111A432F2E002178EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285DDF171A432F2E002178EC /* SenTestingKit.framework in Frameworks */,
+				285DDF181A432F2E002178EC /* UIKit.framework in Frameworks */,
+				285DDF191A432F2E002178EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285DDEDB1A432F2C002178EC = {
+			isa = PBXGroup;
+			children = (
+				286D07A71A96AC6800BC0465 /* ExternalAccessory.framework */,
+				28DC874D1A43317600D332CD /* LLyellow114.png */,
+				28DC874B1A43316600D332CD /* LLyellow57.png */,
+				285DDEF01A432F2D002178EC /* Mega Looping Louie 3G */,
+				285DDEE91A432F2D002178EC /* Frameworks */,
+				285DDEE71A432F2D002178EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		285DDEE71A432F2D002178EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				285DDEE61A432F2D002178EC /* Mega Looping Louie 3G.app */,
+				285DDF151A432F2E002178EC /* Mega Looping Louie 3GTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285DDEE91A432F2D002178EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				285DDEEA1A432F2D002178EC /* UIKit.framework */,
+				285DDEEC1A432F2D002178EC /* Foundation.framework */,
+				285DDEEE1A432F2D002178EC /* CoreGraphics.framework */,
+				285DDF161A432F2E002178EC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		285DDEF01A432F2D002178EC /* Mega Looping Louie 3G */ = {
+			isa = PBXGroup;
+			children = (
+				28883DFE1A97185200A60CCB /* RedparkSDK */,
+				285DDEF91A432F2D002178EC /* AppDelegate.h */,
+				285DDEFA1A432F2D002178EC /* AppDelegate.m */,
+				285DDEFC1A432F2D002178EC /* FirstViewController.h */,
+				285DDEFD1A432F2D002178EC /* FirstViewController.m */,
+				285DDEFF1A432F2D002178EC /* first.png */,
+				285DDF011A432F2D002178EC /* first@2x.png */,
+				285DDF031A432F2D002178EC /* SecondViewController.h */,
+				285DDF041A432F2D002178EC /* SecondViewController.m */,
+				285DDF061A432F2D002178EC /* second.png */,
+				285DDF081A432F2E002178EC /* second@2x.png */,
+				2828F0EE1A4381C200F43566 /* ThirdViewController.h */,
+				2828F0EF1A4381C200F43566 /* ThirdViewController.m */,
+				285DDF0A1A432F2E002178EC /* FirstViewController.xib */,
+				285DDF0D1A432F2E002178EC /* SecondViewController.xib */,
+				2828F0F01A4381C200F43566 /* ThirdViewController.xib */,
+				28DC873E1A4330F500D332CD /* Pictures */,
+				285DDEF11A432F2D002178EC /* Supporting Files */,
+			);
+			path = "Mega Looping Louie 3G";
+			sourceTree = "<group>";
+		};
+		285DDEF11A432F2D002178EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				285DDEF21A432F2D002178EC /* Mega Looping Louie 3G-Info.plist */,
+				285DDEF31A432F2D002178EC /* InfoPlist.strings */,
+				285DDEF61A432F2D002178EC /* main.m */,
+				285DDEF81A432F2D002178EC /* Mega Looping Louie 3G-Prefix.pch */,
+				285DDF1C1A432F2E002178EC /* Mega Looping Louie 3GTests */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		285DDF1C1A432F2E002178EC /* Mega Looping Louie 3GTests */ = {
+			isa = PBXGroup;
+			children = (
+				285DDF221A432F2E002178EC /* Mega_Looping_Louie_3GTests.h */,
+				285DDF231A432F2E002178EC /* Mega_Looping_Louie_3GTests.m */,
+				285DDF1D1A432F2E002178EC /* Supporting Files */,
+			);
+			path = "Mega Looping Louie 3GTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		285DDF1D1A432F2E002178EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				285DDF1E1A432F2E002178EC /* Mega Looping Louie 3GTests-Info.plist */,
+				285DDF1F1A432F2E002178EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28883DFE1A97185200A60CCB /* RedparkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				28883DFF1A97185200A60CCB /* include */,
+				28883E021A97185200A60CCB /* lib */,
+			);
+			path = RedparkSDK;
+			sourceTree = "<group>";
+		};
+		28883DFF1A97185200A60CCB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				28883E001A97185200A60CCB /* redparkSerial.h */,
+				28883E011A97185200A60CCB /* RscMgr.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		28883E021A97185200A60CCB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				286D2BA21A9DD05C0060B144 /* libRscMgrUniv.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		28DC873E1A4330F500D332CD /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				28DC87401A4330F500D332CD /* Default@2x.png */,
+				28DC873F1A4330F500D332CD /* Default.png */,
+				28DC87431A4330F500D332CD /* LLyellowbright.png */,
+				28DC87441A4330F500D332CD /* Looping Louie down bright.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		285DDEE51A432F2D002178EC /* Mega Looping Louie 3G */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285DDF271A432F2E002178EC /* Build configuration list for PBXNativeTarget "Mega Looping Louie 3G" */;
+			buildPhases = (
+				285DDEE21A432F2D002178EC /* Sources */,
+				285DDEE31A432F2D002178EC /* Frameworks */,
+				285DDEE41A432F2D002178EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mega Looping Louie 3G";
+			productName = "Mega Looping Louie 3G";
+			productReference = 285DDEE61A432F2D002178EC /* Mega Looping Louie 3G.app */;
+			productType = "com.apple.product-type.application";
+		};
+		285DDF141A432F2E002178EC /* Mega Looping Louie 3GTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285DDF2A1A432F2E002178EC /* Build configuration list for PBXNativeTarget "Mega Looping Louie 3GTests" */;
+			buildPhases = (
+				285DDF101A432F2E002178EC /* Sources */,
+				285DDF111A432F2E002178EC /* Frameworks */,
+				285DDF121A432F2E002178EC /* Resources */,
+				285DDF131A432F2E002178EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				285DDF1B1A432F2E002178EC /* PBXTargetDependency */,
+			);
+			name = "Mega Looping Louie 3GTests";
+			productName = "Mega Looping Louie 3GTests";
+			productReference = 285DDF151A432F2E002178EC /* Mega Looping Louie 3GTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		285DDEDD1A432F2C002178EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 285DDEE01A432F2C002178EC /* Build configuration list for PBXProject "Mega Looping Louie 3G" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 285DDEDB1A432F2C002178EC;
+			productRefGroup = 285DDEE71A432F2D002178EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				285DDEE51A432F2D002178EC /* Mega Looping Louie 3G */,
+				285DDF141A432F2E002178EC /* Mega Looping Louie 3GTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285DDEE41A432F2D002178EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285DDEF51A432F2D002178EC /* InfoPlist.strings in Resources */,
+				285DDF001A432F2D002178EC /* first.png in Resources */,
+				285DDF021A432F2D002178EC /* first@2x.png in Resources */,
+				285DDF071A432F2E002178EC /* second.png in Resources */,
+				285DDF091A432F2E002178EC /* second@2x.png in Resources */,
+				285DDF0C1A432F2E002178EC /* FirstViewController.xib in Resources */,
+				285DDF0F1A432F2E002178EC /* SecondViewController.xib in Resources */,
+				28DC87451A4330F500D332CD /* Default.png in Resources */,
+				28DC87461A4330F500D332CD /* Default@2x.png in Resources */,
+				28DC87491A4330F500D332CD /* LLyellowbright.png in Resources */,
+				28DC874A1A4330F500D332CD /* Looping Louie down bright.png in Resources */,
+				28DC874C1A43316600D332CD /* LLyellow57.png in Resources */,
+				28DC874E1A43317600D332CD /* LLyellow114.png in Resources */,
+				2828F0F21A4381C200F43566 /* ThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285DDF121A432F2E002178EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285DDF211A432F2E002178EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285DDF131A432F2E002178EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		285DDEE21A432F2D002178EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285DDEF71A432F2D002178EC /* main.m in Sources */,
+				285DDEFB1A432F2D002178EC /* AppDelegate.m in Sources */,
+				285DDEFE1A432F2D002178EC /* FirstViewController.m in Sources */,
+				285DDF051A432F2D002178EC /* SecondViewController.m in Sources */,
+				2828F0F11A4381C200F43566 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285DDF101A432F2E002178EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285DDF241A432F2E002178EC /* Mega_Looping_Louie_3GTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		285DDF1B1A432F2E002178EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285DDEE51A432F2D002178EC /* Mega Looping Louie 3G */;
+			targetProxy = 285DDF1A1A432F2E002178EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		285DDEF31A432F2D002178EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285DDEF41A432F2D002178EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		285DDF0A1A432F2E002178EC /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285DDF0B1A432F2E002178EC /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		285DDF0D1A432F2E002178EC /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285DDF0E1A432F2E002178EC /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		285DDF1F1A432F2E002178EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				285DDF201A432F2E002178EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		285DDF251A432F2E002178EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		285DDF261A432F2E002178EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		285DDF281A432F2E002178EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Looping Louie 3G/Mega Looping Louie 3G-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/schlerethstefan/Documents/Mega Looping Louie 3G/RedparkSDK/include/\"",
+				);
+				INFOPLIST_FILE = "Mega Looping Louie 3G/Mega Looping Louie 3G-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Mega Looping Louie 3G/RedparkSDK/lib/\"",
+					"\"$(SRCROOT)/Mega Looping Louie 3G/RedparkSDK/lib\"",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "\"/Users/stefanschlereth/Documents/Mega Looping Louie 3G/RedparkSDK/include/\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				USER_HEADER_SEARCH_PATHS = "\"/Users/schlerethstefan/Documents/Mega Looping Louie 3G/RedparkSDK/include/\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		285DDF291A432F2E002178EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Looping Louie 3G/Mega Looping Louie 3G-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/schlerethstefan/Documents/Mega Looping Louie 3G/RedparkSDK/include/\"",
+				);
+				INFOPLIST_FILE = "Mega Looping Louie 3G/Mega Looping Louie 3G-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Mega Looping Louie 3G/RedparkSDK/lib/\"",
+					"\"$(SRCROOT)/Mega Looping Louie 3G/RedparkSDK/lib\"",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "\"/Users/stefanschlereth/Documents/Mega Looping Louie 3G/RedparkSDK/include/\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				USER_HEADER_SEARCH_PATHS = "\"/Users/schlerethstefan/Documents/Mega Looping Louie 3G/RedparkSDK/include/\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		285DDF2B1A432F2E002178EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mega Looping Louie 3G.app/Mega Looping Louie 3G";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Looping Louie 3G/Mega Looping Louie 3G-Prefix.pch";
+				INFOPLIST_FILE = "Mega Looping Louie 3GTests/Mega Looping Louie 3GTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		285DDF2C1A432F2E002178EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mega Looping Louie 3G.app/Mega Looping Louie 3G";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega Looping Louie 3G/Mega Looping Louie 3G-Prefix.pch";
+				INFOPLIST_FILE = "Mega Looping Louie 3GTests/Mega Looping Louie 3GTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285DDEE01A432F2C002178EC /* Build configuration list for PBXProject "Mega Looping Louie 3G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285DDF251A432F2E002178EC /* Debug */,
+				285DDF261A432F2E002178EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285DDF271A432F2E002178EC /* Build configuration list for PBXNativeTarget "Mega Looping Louie 3G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285DDF281A432F2E002178EC /* Debug */,
+				285DDF291A432F2E002178EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		285DDF2A1A432F2E002178EC /* Build configuration list for PBXNativeTarget "Mega Looping Louie 3GTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285DDF2B1A432F2E002178EC /* Debug */,
+				285DDF2C1A432F2E002178EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 285DDEDD1A432F2C002178EC /* Project object */;
+}
