@@ -1,6 +1,7 @@
 # Iphone-3G-Louie
 
-App for Iphone 3G with armv6 hardware
+iPhone 3G for armv6 hardware.
 
-Change game mode, speed, timer and light effects via serialcable (30 pin dock connecter)
+Main purpose of this App is the communication between iPhone and Arduino with serial communication.
 
+To change game mode, speed, timer and light effects via serial cable (30 pin dock connecter) and Serial1 on Arduino.

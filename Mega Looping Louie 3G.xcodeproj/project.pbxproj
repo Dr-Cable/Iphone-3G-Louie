@@ -30,6 +30,7 @@
 		285DDF241A432F2E002178EC /* Mega_Looping_Louie_3GTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285DDF231A432F2E002178EC /* Mega_Looping_Louie_3GTests.m */; };
 		286D07A81A96AC6800BC0465 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286D07A71A96AC6800BC0465 /* ExternalAccessory.framework */; };
 		286D2BA31A9DD05C0060B144 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 286D2BA21A9DD05C0060B144 /* libRscMgrUniv.a */; };
+		28A79F9D1AA7FDDD000B31D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 28A79F9C1AA7FDDD000B31D4 /* README.md */; };
 		28DC87451A4330F500D332CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC873F1A4330F500D332CD /* Default.png */; };
 		28DC87461A4330F500D332CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC87401A4330F500D332CD /* Default@2x.png */; };
 		28DC87491A4330F500D332CD /* LLyellowbright.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DC87431A4330F500D332CD /* LLyellowbright.png */; };
@@ -82,6 +83,7 @@
 		286D2BA21A9DD05C0060B144 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
 		28883E001A97185200A60CCB /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
 		28883E011A97185200A60CCB /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		28A79F9C1AA7FDDD000B31D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		28DC873F1A4330F500D332CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		28DC87401A4330F500D332CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		28DC87431A4330F500D332CD /* LLyellowbright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LLyellowbright.png; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				286D07A71A96AC6800BC0465 /* ExternalAccessory.framework */,
 				28DC874D1A43317600D332CD /* LLyellow114.png */,
 				28DC874B1A43316600D332CD /* LLyellow57.png */,
+				28A79F9C1AA7FDDD000B31D4 /* README.md */,
 				285DDEF01A432F2D002178EC /* Mega Looping Louie 3G */,
 				285DDEE91A432F2D002178EC /* Frameworks */,
 				285DDEE71A432F2D002178EC /* Products */,
@@ -325,6 +328,7 @@
 				28DC874C1A43316600D332CD /* LLyellow57.png in Resources */,
 				28DC874E1A43317600D332CD /* LLyellow114.png in Resources */,
 				2828F0F21A4381C200F43566 /* ThirdViewController.xib in Resources */,
+				28A79F9D1AA7FDDD000B31D4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
