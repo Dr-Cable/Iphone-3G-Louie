@@ -1,6 +1,6 @@
 # Iphone-3G-Louie
 
-iPhone 3G for armv6 hardware.
+iPhone 3G APP for armv6 hardware.
 
 Main purpose of this App is the communication between iPhone and Arduino with serial communication.
 
